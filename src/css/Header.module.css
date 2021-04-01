@@ -1,0 +1,165 @@
+
+
+.headerContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+
+}
+
+.MenuOptions {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.MenuOptions:hover { cursor: pointer; }
+
+.MenuOptions > span {
+    padding: 1rem;
+    /* font-size: 20px; */
+}
+
+.MenuOptions > span > a {
+    text-decoration: none;
+    color: white;
+}
+
+.activeNavLink {
+    background-color: #C0392B;
+}
+
+.inActiveNavLink {
+    background-color: black;
+}
+
+.MenuOption {
+    flex-grow: 2;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 2.5rem;
+    }
+
+    .headerL {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .companyName {
+        font-size: 1.5rem;
+        padding: 1.2rem;
+    }
+
+    .MenuOptions {
+        background-color: #a6a6a6;
+        width: 100%;
+    }
+    .MenuOptions > span {
+        font-size: 13px;
+        border-right: 1px solid gray;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .logo {
+        width: 2.5rem;
+    }
+
+    .headerL {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .companyName {
+        font-size: 1.5rem;
+        padding: 1.2rem;
+    }
+
+    .MenuOptions {
+        background-color: #a6a6a6;
+        width: 100%;
+    }
+    .MenuOptions > span {
+        font-size: 13px;
+        border-right: 1px solid gray;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 2.5rem;
+    }
+
+    .headerL {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    .MenuOptions {
+        background-color: black;
+        width: auto;
+    }
+    .MenuOptions > span {
+        font-size: 20px;
+
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo {
+        width: 3rem;
+    }
+
+    .headerL {
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .MenuOptions {
+        background-color: black;
+        width: auto;
+    }
+    .MenuOptions > span {
+        font-size: 20px;
+
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .logo {
+        width: 3rem;
+    }
+
+    .headerL {
+        display: flex;
+        align-items: center;
+        width: 25%;
+    }
+    .MenuOptions {
+        background-color: black;
+        width: auto;
+    }
+    .MenuOptions > span {
+        font-size: 20px;
+
+    }
+}

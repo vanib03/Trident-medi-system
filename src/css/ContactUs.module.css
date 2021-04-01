@@ -1,0 +1,50 @@
+
+.contactUsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.errMsg {
+    color: red;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contactUsL { width: 80%; align-self: center; }
+    .contactUsR { width: 80%; }
+    .map { width: 100%; }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contactUsL { width: 80%; align-self: center; }
+    .contactUsR { width: 80%; }
+    .map { width: 100%; }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* .contactUsL { width: 30%; margin-right: 4rem; }
+    .contactUsR { width: 30%; }
+    .map { width: 80%; height: 100%; } */
+    .contactUsL { width: 80%; align-self: center; }
+    .contactUsR { width: 80%; height: 20rem; }
+    .map { width: 100%; }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contactUsL {margin-right: 4rem; width: 30rem; }
+    .contactUsR { width: 30%; }
+    .map { width: 100%; height: 100%; }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contactUsL { margin-right: 4rem; width: 30rem; }
+    .contactUsR { width: 30%; }
+    .map { width: 100%; height: 100%; }
+
+}
